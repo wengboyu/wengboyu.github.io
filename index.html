@@ -2,71 +2,139 @@
 <html lang="zh-Hant">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <title>Wehelp申請書</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
+        body{
+            margin:0px;font-family:arial, sans-serif;
+            font-size:20px;letter-spacing:1px;
         }
-        h1 {
-            text-align: center;
+        a{
+            color:#6699cc;text-decoration:none;
         }
-        h2 {
-            text-align: center;
-            margin-top: 40px;
+        a:hover, a:active{
+            text-decoration:underline;
         }
-        .content {
-            margin: 20px;
-            border: 1px solid #ccc;
-            padding: 10px;
-            border-radius: 5px;
+        header{
+            background-color:#223344;color:#ffffff;
+            text-align:center;font-size:2em;
+            padding:30px 0px;
         }
-    </style>
+        main{
+            padding:30px 0px;line-height:1.5em;
+        }
+        main>section{
+            display:flex;justify-content:center;
+        }
+        main>section>.col1{
+            width:90%;max-width:1200px;
+        }
+        main>section>.col2{
+            width:90%;max-width:1200px;
+        }
+        main>section.headline{
+            font-size:1.5em;margin:30px 0px;
+        }
+        /* main>section.examples  */
+        main>section.content .content{
+            margin-bottom:15px;
+        }
+        main>section.content .content>.description{
+            color:#888888;
+        }
+        </style>
 </head>
 <body>
+    <header>Wehelp申請書</header>
+    <main>
+        <section class="headline">
+            <div class="col1">
+                個人簡介和申請動機
+            </div>
+        </section>
+        <section class="content">
+            <div class="col2">
+                請輸入內容
+            </div>
+        </section>
 
-    <h1>Wehelp申請書</h1>
+        <section class="headline">
+            <div class="col1">
+                曾經做過哪些軟體工程技術相關的學習？若有作品請分享給我們。
+            </div>
+        </section>
+        <section class="content">
+            <div class="col2">
+                請輸入內容
+            </div>
+        </section>
 
-    <h2>個人簡介和申請動機</h2>
-    <div class="content">
-        <p>請輸入內容</p>
-    </div>
+        <section class="headline">
+            <div class="col1">
+                如果參與這個訓練，會怎麼安排學習時間？
+            </div>
+        </section>
+        <section class="content">
+            <div class="col2">
+                請輸入內容
+            </div>
+        </section>
 
-    <h2>曾經做過哪些軟體工程技術相關的學習？若有作品請分享給我們。</h2>
-    <div class="content">
-        <p>請輸入內容</p>
-    </div>
+        <section class="headline">
+            <div class="col1">
+                軟體技術日新月異，如何確定選擇投入的領域是正確有回報的？
+            </div>
+        </section>
+        <section class="content">
+            <div class="col2">
+                請輸入內容
+            </div>
+        </section>
 
-    <h2>如果參與這個訓練，會怎麼安排學習時間？</h2>
-    <div class="content">
-        <p>請輸入內容</p>
-    </div>
+        <section class="headline">
+            <div class="col1">
+                請描述一件產生明顯負面情緒的經歷，如何處理該情緒？
+            </div>
+        </section>
+        <section class="content">
+            <div class="col2">
+                請輸入內容
+            </div>
+        </section>
 
-    <h2>軟體技術日新月異，如何確定選擇投入的領域是正確有回報的？</h2>
-    <div class="content">
-        <p>請輸入內容</p>
-    </div>
+        <section class="headline">
+            <div class="col1">
+                關於這份申請網頁，分享一個開發時的技術心得。
+            </div>
+        </section>
+        <section class="content">
+            <div class="col2">
+                請輸入內容
+            </div>
+        </section>
 
-    <h2>請描述一件產生明顯負面情緒的經歷，如何處理該情緒？</h2>
-    <div class="content">
-        <p>請輸入內容</p>
-    </div>
+        <section class="headline">
+            <div class="col1">
+                如何看待自身工作和整個社會群體的連結關係？
+            </div>
+        </section>
+        <section class="content">
+            <div class="col2">
+                請輸入內容
+            </div>
+        </section>
 
-    <h2>關於這份申請網頁，分享一個開發時的技術心得。</h2>
-    <div class="content">
-        <p>請輸入內容</p>
-    </div>
-
-    <h2>如何看待自身工作和整個社會群體的連結關係？</h2>
-    <div class="content">
-        <p>請輸入內容</p>
-    </div>
-
-    <h2>其他想要對我們說的事情？</h2>
-    <div class="content">
-        <p>請輸入內容</p>
-    </div>
+        <section class="headline">
+            <div class="col1">
+                其他想要對我們說的事情？
+            </div>
+        </section>
+        <section class="content">
+            <div class="col2">
+                請輸入內容
+            </div>
+        </section>
+    </main>
 
 </body>
 </html>
